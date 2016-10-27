@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="raspi"
+           fetch="https://github.com/android-raspi"
+  />
+
+  <project path="build" name="android_build" remote="raspi" revision="aosp-7.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="raspi" revision="aosp-7.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="raspi" revision="aosp-7.1" />
+  <project path="external/mesa3d" name="android_external_mesa3d" remote="raspi" revision="aosp-7.1" />
+  <project path="external/drm_gralloc" name="android_external_drm_gralloc" remote="raspi" revision="aosp-7.1" />
+  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="raspi" revision="aosp-7.1" />
+
+</manifest>

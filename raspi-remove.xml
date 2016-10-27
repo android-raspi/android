@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/build" />
+
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
+
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-mips64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/google/dragon" />
+  <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/intel/edison" />
+  <remove-project name="device/lge/bullhead" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+
+  <remove-project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
+  <remove-project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
+  <remove-project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+
+  <remove-project name="platform/external/drm_gralloc"/>
+  <remove-project name="platform/external/drm_hwcomposer"/>
+  <remove-project name="platform/external/mesa3d"/>
+
+  <remove-project name="platform/hardware/marvell/bt" />
+
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/libwsbm" />
+  <remove-project name="platform/hardware/intel/common/omx-components" />
+  <remove-project name="platform/hardware/intel/common/utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/img/hwcomposer" />
+  <remove-project name="platform/hardware/intel/img/psb_headers" />
+  <remove-project name="platform/hardware/intel/img/psb_video" />
+  <remove-project name="platform/hardware/intel/sensors" />
+
+</manifest>

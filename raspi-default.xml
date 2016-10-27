@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="raspi-remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="raspi-aosp.xml" />
+
+  <project path="android" name="android" remote="raspi" revision="aosp-7.1" />
+  <project path="device/broadcom/rpi3" name="android_device_broadcom_rpi3" remote="raspi" revision="aosp-7.1" />
+  <project path="hardware/broadcom/rpi" name="android_hardware_broadcom_rpi" remote="raspi" revision="aosp-7.1" />
+  <project path="kernel/broadcom/rpi" name="android_kernel_broadcom_rpi" remote="raspi" revision="aosp-7.1" />
+  <project path="prebuilts/raspberry-pi" name="android_prebuilts_raspberry-pi" remote="raspi" revision="aosp-7.1" />
+
+</manifest>
