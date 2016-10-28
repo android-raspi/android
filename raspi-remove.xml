@@ -40,7 +40,6 @@
   <remove-project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
 
   <remove-project name="platform/external/drm_gralloc"/>
-  <remove-project name="platform/external/drm_hwcomposer"/>
   <remove-project name="platform/external/mesa3d"/>
 
   <remove-project name="platform/hardware/marvell/bt" />
