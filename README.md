@@ -17,13 +17,16 @@ Then to sync up:
 
 Then to build:
 
-     $ cd <source-dir>
-     $ source build/envsetup.sh && lunch
-     
-     When prompted, pick the number corresponding to your device in the list displayed and press enter.
-     It should be displayed as "aosp_rpi[N]-userdebug"
-     
-     $ make –j <insert the cpu thread number of your computer>
+    $ cd <source-dir>
+    $ source build/envsetup.sh
+    $ brunch rpi3
+
+Building only kernel:
+
+    $ cd <source-dir>
+    $ source build/envsetup.sh
+    $ bib rpi3
+    $ mka bootimage
 
 ## Prepare SD Card ##
 ---------------
