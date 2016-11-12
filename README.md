@@ -11,6 +11,14 @@ To initialize your local repository using the Android/Raspberry trees, use a com
 
     $ repo init -u git://github.com/android-raspi/android.git -b aosp-7.1
 
+Establishing a Build Environment
+
+    https://source.android.com/source/initializing.html
+
+Also install python mako module and schedtool
+
+    $ sudo apt-get install python-mako schedtool
+
 Then to sync up:
 
     $ repo sync
